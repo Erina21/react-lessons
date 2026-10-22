@@ -1,14 +1,12 @@
-import Header from './components/Header'
-import Statistics from './components/Statistics'
-import StudentStatictics from './components/StudentStatictics'
+
+
 import './App.css'
+import Tasks from './components/Tasks'
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Statistics />
-      <StudentStatictics />
+      <Tasks/>
     </div>
   )
 }

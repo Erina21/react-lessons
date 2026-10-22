@@ -1,5 +1,3 @@
-import React from 'react'
-
 function StatCard({ title, value, stat, color }) {
   return (
       <div>
